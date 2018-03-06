@@ -1,0 +1,104 @@
+Terminal command : 
+--------------------------
+pwd :: print working directory
+ls :: list all files 
+ls -la :: list all file and hidden files and permission info
+ls -ll :: will list non-hidden files
+cd/{dir} :: to move to a directory
+cd .. :: to come out of directory
+cd /home/user/{dir}/{dir}.. :: to go directly to a directory
+cd - ::To toggle forward and backward in directory
+locate -i filename :: to search for a file
+find .-iname filenmae :: to search in current folder
+find /-iname filenmae :: to search from root folder (sudo may be required)
+sudo find / -name apache-tomcat* -type d :: to search folder from root
+grep {word} filename :: to search word in file
+clear :: clear screen
+Make files and dir
+--------------------------
+mkdir filename :: create diirectory
+rmdir filename :: remove directory
+
+
+
+Move / Copy paste 
+---------------------------------
+// to add
+
+
+file Permission 
+-----------------------
+// to add
+
+
+
+
+
+
+Vim editor ( vi filename ) :
+---------------------
+Follwing things can be done in command mode (i.e press esc)
+-----------------------------------------------------
+
+To set line number :: esc :set number
+To set ignorecase :: esc :set ignorecase
+To set higilight for word :: esc :set hlsearch
+To search a word :: esc :/{yourword}
+To search forward :: n
+To search back :: Shift+n
+w To Forward one word
+b To Backward one word
+nw move n words forward (donot hold and keep)
+nb movw n words backward (donot hold and keep)
+e move end of word
+h Moves the cursor one character to the left
+j Moves the cursor down one line
+k Moves the cursor up one line
+l Moves the cursor one character to the right
+
+Follwing commands to execute while holding : ctrl-key
+-----------------------------------------------------
+
+^F -(CTRl F) Forward screenful
+^B -Backward screenful
+
+
+Follwing commands to execute while holding : Shift-key
+-----------------------------------------------------
+H - Start of screen 
+M - middle of screen 
+L - bottom of screen 
+G - end of file 
+$ -Move cursor to the end of current line
+0 - move to start of line 
+
+Exit Commands
+-----------------------------------------------------
+:wq Write file to disk and quit the editor
+:q! Quit (no warning)
+:q Quit (a warning is printed if a modified file has not been saved)
+ZZ Save workspace and quit the editor (same as :wq)
+
+
+following Copy paste commands after executing :: esc :yank
+-----------------------------------------------------
+yy - copy current cursor line 
+yw - copy current cursor word to end of line 
+nyy - copy n line 
+u - undo
+p - paste in next line
+(Shift)+p - paster in previous line 
+x -delete character 
+db Delete word backward
+dd Delete line
+dw Delete word from cursor on
+
+
+
+
+
+
+
+
+
+
